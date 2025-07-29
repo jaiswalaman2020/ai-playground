@@ -25,9 +25,6 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
-  ),
   title: "Component Generator - AI-Powered React Component Builder",
   description:
     "Generate, customize, and export React components using AI. Build beautiful UIs with conversational prompts.",
@@ -38,7 +35,6 @@ export const metadata: Metadata = {
     type: "website",
     title: "Component Generator",
     description: "AI-Powered React Component Builder",
-    url: process.env.NEXT_PUBLIC_APP_URL,
     siteName: "Component Generator",
   },
   twitter: {
