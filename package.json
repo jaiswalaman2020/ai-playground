@@ -1,0 +1,14 @@
+{
+  "name": "component-generator",
+  "version": "1.0.0",
+  "description": "<img src=\"./frontend/Screenshot from 2025-07-29 04-45-10.png\" alt=\"Component Generator Logo\" width=\"200\">",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install --prefix backend",
+    "start": "npm run start --prefix backend"
+  }
+}
