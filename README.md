@@ -1,4 +1,6 @@
-<img src="./frontend/Screenshot from 2025-07-29 04-45-10.png" alt="Component Generator Logo" width="200">
+### Note:I am using free api key for OpenRouter, so there is a limit on the number of requests.And i the code is dynamically changing the ai model so if your prompt is not generating please try aftersometime !!
+
+<img src="./frontend/Screenshot from 2025-07-29 04-45-10.png" alt="Component Generator Logo" width="100%">
 
 # 🚀 AI-Powered Component Generator Platform
 
@@ -6,7 +8,7 @@ A stateful, AI-driven micro-frontend playground where authenticated users can it
 
 ## 🎯 Live Demo
 
-**Demo URL**: [Your Live Hosted URL Here]
+**Demo URL**: https://ai-playground-smoky.vercel.app
 
 ## ✨ Features
 
@@ -75,11 +77,6 @@ A stateful, AI-driven micro-frontend playground where authenticated users can it
 - Redis instance (Upstash or local)
 - OpenRouter API key
 
-### 4. Access the Application
-
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:5000
-
 ## 📋 API Endpoints
 
 ### Authentication
@@ -135,49 +132,6 @@ A stateful, AI-driven micro-frontend playground where authenticated users can it
 - View generated code in syntax-highlighted editor
 - Copy individual files or download as ZIP
 - Export includes full project structure
-
-## 🏆 Evaluation Checklist
-
-| Feature  
-| -------------------------------------------------
-| **Auth & Backend**  
-| • JWT authentication with secure password hashing
-| • RESTful API with proper error handling  
-| • MongoDB schema design with relationships  
-| **State Management**  
-| • Context API + React Query for state management  
-| • Auto-save functionality  
-| • Session restoration on reload  
-| **AI Integration**  
-| • OpenRouter API integration  
-| • Streaming responses with error handling  
-| • Context-aware prompt engineering  
-| **Micro-Frontend Rendering**  
-| • Secure iframe sandbox  
-| • Hot-reload without full refresh  
-| • Component isolation  
-| **Code Editor & Export**  
-| • Monaco Editor with syntax highlighting  
-| • Copy/download functionality  
-| • ZIP export with project structure  
-| **Iterative Workflow**  
-| • Clear chat UX with turn delineation  
-| • Incremental patches vs full replaces  
-| • Version history tracking  
-| **Persistence & Resume**  
-| • Auto-save triggers on interactions  
-| • Fast session loading with Redis cache  
-| • Graceful error recovery  
-| **Polish & Accessibility**  
-| • Responsive design with mobile support  
-| **Bonus Features**  
-| • ARIA roles and keyboard navigation  
-| • Loading/error/empty states  
-| • Interactive Property Editor  
-| • Chat-Driven Element Targeting  
-| • Image-to-Component Generation
-
-## 🎯 Key Decisions & Trade-offs
 
 ### State Management Strategy
 
