@@ -7,7 +7,6 @@ import {
   GenerateRequest,
   GeneratedCode,
   PaginationParams,
-  PaginatedResponse,
   APIResponse,
 } from "@/types";
 import { getStoredToken, removeStoredToken } from "./auth";
